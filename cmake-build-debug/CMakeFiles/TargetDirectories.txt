@@ -1,0 +1,3 @@
+E:/Sorting-Algotihms/Sorting-Algorithms-/cmake-build-debug/CMakeFiles/Sorting_Algorithms_.dir
+E:/Sorting-Algotihms/Sorting-Algorithms-/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Sorting-Algotihms/Sorting-Algorithms-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
