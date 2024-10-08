@@ -37,7 +37,7 @@ int particion_V2(int *V , int beggin , int end) {
 
     int i = beggin - 1;
     int j = end+1 ;
-    int X = V[beggin];
+    int X = V[beggin + rand()%(end-beggin+1)];
 
     while(1) {
 
