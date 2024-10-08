@@ -14,12 +14,12 @@ void bubble_sort(int *V , int N)
     int count;
     int j;
 
-    for (int i = 0; i < N && flag; i++)
+    for (int i = 0; i < N-1 && flag; i++)
     {
 
         count = 0;
 
-        for (j = 0; j < N-1; j++)
+        for (j = 0; j < N-1 - i ; j++)
         {
 
             if (V[j] > V[j + 1]) {
