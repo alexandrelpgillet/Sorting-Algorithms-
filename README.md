@@ -1,4 +1,4 @@
-##TEMPO DE EXECUÇÃO DOS ALGORITMOS
+## TEMPO DE EXECUÇÃO DOS ALGORITMOS
 1. Selection sort : 114.098000
 2. Insertion sort : 89.707000
 3. Bubble sort : 485.222000
