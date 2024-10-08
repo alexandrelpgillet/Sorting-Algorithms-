@@ -5,6 +5,7 @@
 #include "merge_sort.h"
 #include "heap_sort.h"
 #include "swap.h"
+#include "quick_sort.h"
 #include <stdio.h>
 #include <time.h>
 
@@ -15,9 +16,9 @@ int main() {
     double cpu_time_used;
 
 
-    int V[500000];
+    int V[50000];
 
-    for(int i = 0 ; i<500000; i++) {
+    for(int i = 0 ; i<50000; i++) {
 
         scanf("%d", &V[i]);
     }
@@ -30,7 +31,9 @@ int main() {
     //insertion_sort(V, 500000);
     //bubble_sort(V, 500000);
     //merge_sort(V, 0, 499999);
-    heap_sort(V ,500000);
+    //heap_sort(V ,500000);
+    //quicksort(V , 0 , 499999);
+    quicksort_V2(V,0 , 49999);
 
     end = clock();
 
@@ -39,7 +42,7 @@ int main() {
     printf("Tempo de execução: %f segundos\n", cpu_time_used);
 
 
-    for (int i = 0; i < 100000; i++)
+    for (int i = 0; i < 50000; i++)
     {
         printf("%d|", V[i]);
     }

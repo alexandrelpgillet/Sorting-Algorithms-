@@ -9,4 +9,5 @@ add_executable(Sorting_Algorithms_ main.c
         swap.h
         insertion_sort.h
         heap_sort.h
-        bubble_sort.h)
+        bubble_sort.h
+        quick_sort.h)
